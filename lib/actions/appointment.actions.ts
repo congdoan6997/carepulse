@@ -33,7 +33,7 @@ export const createAppointment = async (
 };
 
 // get recent appointments
-export const getRecentAppointments = async () => {
+export const getRecentAppointmentList = async () => {
   try {
     const appointments = await databases.listDocuments(
       DATABASE_ID!,
